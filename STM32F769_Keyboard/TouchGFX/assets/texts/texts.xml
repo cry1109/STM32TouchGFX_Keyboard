@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.0">
+  <Texts>
+    <Text Id="__SingleUse_YIWE" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_4KN6" TypographyId="MicrosoftYaHei_32" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">非编辑区域</Translation>
+    </Text>
+    <Text Id="__SingleUse_U04P" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">点击编辑内容</Translation>
+    </Text>
+    <Text Id="__SingleUse_CKBT" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">ESC</Translation>
+    </Text>
+    <Text Id="__SingleUse_FHVS" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">CLR</Translation>
+    </Text>
+    <Text Id="__SingleUse_7FVL" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">123</Translation>
+    </Text>
+    <Text Id="TextcnBt" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">中/En</Translation>
+    </Text>
+    <Text Id="TextenBt" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">En/中</Translation>
+    </Text>
+    <Text Id="__SingleUse_STRB" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="Text_a_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">a</Translation>
+    </Text>
+    <Text Id="Text_a_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">A</Translation>
+    </Text>
+    <Text Id="Text_b_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">b</Translation>
+    </Text>
+    <Text Id="Text_b_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">B</Translation>
+    </Text>
+    <Text Id="Text_c_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">c</Translation>
+    </Text>
+    <Text Id="Text_c_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">C</Translation>
+    </Text>
+    <Text Id="Text_e_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">e</Translation>
+    </Text>
+    <Text Id="Text_e_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">E</Translation>
+    </Text>
+    <Text Id="Text_f_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">f</Translation>
+    </Text>
+    <Text Id="Text_f_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">F</Translation>
+    </Text>
+    <Text Id="Text_g_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">g</Translation>
+    </Text>
+    <Text Id="Text_g_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">G</Translation>
+    </Text>
+    <Text Id="Text_h_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">h</Translation>
+    </Text>
+    <Text Id="Text_h_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">H</Translation>
+    </Text>
+    <Text Id="Text_i_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">i</Translation>
+    </Text>
+    <Text Id="Text_i_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">I</Translation>
+    </Text>
+    <Text Id="Text_j_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">j</Translation>
+    </Text>
+    <Text Id="Text_j_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">J</Translation>
+    </Text>
+    <Text Id="Text_k_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">k</Translation>
+    </Text>
+    <Text Id="Text_k_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">K</Translation>
+    </Text>
+    <Text Id="Text_l_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">l</Translation>
+    </Text>
+    <Text Id="Text_l_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">L</Translation>
+    </Text>
+    <Text Id="Text_m_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">m</Translation>
+    </Text>
+    <Text Id="Text_m_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">M</Translation>
+    </Text>
+    <Text Id="Text_n_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">n</Translation>
+    </Text>
+    <Text Id="Text_n_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">N</Translation>
+    </Text>
+    <Text Id="Text_o_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">o</Translation>
+    </Text>
+    <Text Id="Text_o_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">O</Translation>
+    </Text>
+    <Text Id="Text_p_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">p</Translation>
+    </Text>
+    <Text Id="Text_p_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">P</Translation>
+    </Text>
+    <Text Id="Text_q_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">q</Translation>
+    </Text>
+    <Text Id="Text_q_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Q</Translation>
+    </Text>
+    <Text Id="Text_r_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">r</Translation>
+    </Text>
+    <Text Id="Text_r_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">R</Translation>
+    </Text>
+    <Text Id="Text_s_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">s</Translation>
+    </Text>
+    <Text Id="Text_s_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">S</Translation>
+    </Text>
+    <Text Id="Text_t_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">t</Translation>
+    </Text>
+    <Text Id="Text_t_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">T</Translation>
+    </Text>
+    <Text Id="Text_u_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">u</Translation>
+    </Text>
+    <Text Id="Text_u_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">U</Translation>
+    </Text>
+    <Text Id="Text_v_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">v</Translation>
+    </Text>
+    <Text Id="Text_v_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">V</Translation>
+    </Text>
+    <Text Id="Text_w_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">w</Translation>
+    </Text>
+    <Text Id="Text_w_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">W</Translation>
+    </Text>
+    <Text Id="Text_x_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">x</Translation>
+    </Text>
+    <Text Id="Text_x_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">X</Translation>
+    </Text>
+    <Text Id="Text_y_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">y</Translation>
+    </Text>
+    <Text Id="Text_y_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Y</Translation>
+    </Text>
+    <Text Id="Text_z_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">z</Translation>
+    </Text>
+    <Text Id="Text_z_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Z</Translation>
+    </Text>
+    <Text Id="Text_d_x" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">d</Translation>
+    </Text>
+    <Text Id="Text_d_d" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">D</Translation>
+    </Text>
+    <Text Id="Text_dx" TypographyId="MicrosoftYaHeiB_28" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">A/a</Translation>
+    </Text>
+    <Text Id="Text_xd" TypographyId="MicrosoftYaHeiB_28" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">a/A</Translation>
+    </Text>
+    <Text Id="__SingleUse_5JT0" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Enter</Translation>
+    </Text>
+    <Text Id="__SingleUse_LG4O" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">abc</Translation>
+    </Text>
+    <Text Id="__SingleUse_ZCP8" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">def</Translation>
+    </Text>
+    <Text Id="__SingleUse_Y71X" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">分词</Translation>
+    </Text>
+    <Text Id="__SingleUse_7L74" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">ghi</Translation>
+    </Text>
+    <Text Id="__SingleUse_OY5R" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">jkl</Translation>
+    </Text>
+    <Text Id="__SingleUse_KC5C" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">mno</Translation>
+    </Text>
+    <Text Id="__SingleUse_GVSI" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">pqrs</Translation>
+    </Text>
+    <Text Id="__SingleUse_5Z2G" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">tuv</Translation>
+    </Text>
+    <Text Id="__SingleUse_OQPU" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">wxyz</Translation>
+    </Text>
+    <Text Id="__SingleUse_46EI" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">后  退</Translation>
+    </Text>
+    <Text Id="__SingleUse_8A37" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">确  定</Translation>
+    </Text>
+    <Text Id="__SingleUse_RMLV" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">删  除</Translation>
+    </Text>
+    <Text Id="__SingleUse_PV49" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Delet</Translation>
+    </Text>
+    <Text Id="__SingleUse_5MAR" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">1</Translation>
+    </Text>
+    <Text Id="__SingleUse_N2DL" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">2</Translation>
+    </Text>
+    <Text Id="__SingleUse_54BS" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">3</Translation>
+    </Text>
+    <Text Id="__SingleUse_1B1T" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">4</Translation>
+    </Text>
+    <Text Id="__SingleUse_91NM" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">5</Translation>
+    </Text>
+    <Text Id="__SingleUse_EX1Q" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">6</Translation>
+    </Text>
+    <Text Id="__SingleUse_I1ZR" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">7</Translation>
+    </Text>
+    <Text Id="__SingleUse_O49Z" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">8</Translation>
+    </Text>
+    <Text Id="__SingleUse_TUWO" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">9</Translation>
+    </Text>
+    <Text Id="__SingleUse_GAOE" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+    </Text>
+    <Text Id="__SingleUse_2RBH" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">.</Translation>
+    </Text>
+    <Text Id="__SingleUse_5L9G" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">+</Translation>
+    </Text>
+    <Text Id="__SingleUse_PMM9" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_NIUW" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">*</Translation>
+    </Text>
+    <Text Id="__SingleUse_VUWB" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">/</Translation>
+    </Text>
+    <Text Id="__SingleUse_QG6R" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">=</Translation>
+    </Text>
+    <Text Id="__SingleUse_Y843" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Del</Translation>
+    </Text>
+    <Text Id="__SingleUse_U2BH" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">#</Translation>
+    </Text>
+    <Text Id="__SingleUse_UALR" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">@</Translation>
+    </Text>
+    <Text Id="__SingleUse_HEDJ" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&amp;</Translation>
+    </Text>
+    <Text Id="__SingleUse_T5LE" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">%</Translation>
+    </Text>
+    <Text Id="__SingleUse_7JC9" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">(</Translation>
+    </Text>
+    <Text Id="__SingleUse_0NF6" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">)</Translation>
+    </Text>
+    <Text Id="__SingleUse_ZPBV" TypographyId="MicrosoftYaHeiB_30" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Ent</Translation>
+    </Text>
+    <Text Id="__SingleUse_SPOH" TypographyId="Default_28" Alignment="Left" Direction="LTR">
+      <Translation Language="GB"></Translation>
+    </Text>
+    <Text Id="__SingleUse_AUV5" TypographyId="Default_28" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_E9OO" TypographyId="Default_28" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_21KK" TypographyId="Default_28" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_61RW" TypographyId="Default_28" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_IKUO" TypographyId="Default_28" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_5B85" TypographyId="MicrosoftYaHeiB_40" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_JQGB" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">你</Translation>
+    </Text>
+    <Text Id="__SingleUse_TYPI" TypographyId="MicrosoftYaHeiB_40" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_7BAP" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">好</Translation>
+    </Text>
+    <Text Id="__SingleUse_1MC8" TypographyId="MicrosoftYaHeiB_40" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_JQZ7" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">我</Translation>
+    </Text>
+    <Text Id="__SingleUse_Y7KV" TypographyId="MicrosoftYaHeiB_40" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_8955" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">是</Translation>
+    </Text>
+    <Text Id="__SingleUse_KRVP" TypographyId="MicrosoftYaHeiB_40" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_IAZV" TypographyId="MicrosoftYaHeiB_40" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">界</Translation>
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default_28" Font="verdana.ttf" Size="28" Bpp="4" FallbackCharacter="?" WildcardCharacterRanges="a-z" />
+    <Typography Id="Large_40" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Small_10" Font="verdana.ttf" Size="10" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="MicrosoftYaHei_32" Font="MicrosoftYaHei.ttf" Size="32" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="MicrosoftYaHeiB_30" Font="MicrosoftYaHei_Bold.ttf" Size="30" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="MicrosoftYaHeiB_28" Font="MicrosoftYaHei_Bold.ttf" Size="28" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="MicrosoftYaHeiB_40" Font="MicrosoftYaHei_Bold.ttf" Size="40" Bpp="4" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9,0x4E00-0x9FA5" />
+  </Typographies>
+</TextDatabase>

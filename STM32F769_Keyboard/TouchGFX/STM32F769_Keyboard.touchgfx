@@ -1,0 +1,2943 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "keyboard\\mianbackgroun.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 80,
+            "Y": 69,
+            "Width": 640,
+            "Height": 300,
+            "TextId": "__SingleUse_YIWE",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_U04P",
+              "UseBuffer": true,
+              "BufferSize": 50
+            },
+            "Clickable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 80,
+            "Y": 410,
+            "Width": 160,
+            "Height": 43,
+            "TextId": "__SingleUse_4KN6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 93,
+              "Green": 93,
+              "Blue": 94
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "Keyboard",
+        "Y": 80,
+        "Width": 800,
+        "Height": 400,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "keyboardBackground",
+            "Width": 800,
+            "Height": 410,
+            "RelativeFilename": "keyboard\\background.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textInput",
+            "X": 30,
+            "Y": 18,
+            "Width": 740,
+            "Height": 50,
+            "TextId": "__SingleUse_STRB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 84,
+              "Green": 244,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "funcBtCont",
+            "X": 20,
+            "Y": 90,
+            "Width": 130,
+            "Height": 310,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "escBt",
+                "X": 15,
+                "Y": 10,
+                "Width": 100,
+                "Height": 60,
+                "Pressed": "keyboard\\fun_bt_pre.png",
+                "Released": "keyboard\\fun_bt_rel.png",
+                "TextId": "__SingleUse_CKBT",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 208
+                },
+                "PressedColor": {
+                  "Red": 150,
+                  "Green": 73
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "clrBt",
+                "X": 15,
+                "Y": 87,
+                "Width": 100,
+                "Height": 60,
+                "Pressed": "keyboard\\fun_bt_pre.png",
+                "Released": "keyboard\\fun_bt_rel.png",
+                "TextId": "__SingleUse_FHVS",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 208
+                },
+                "PressedColor": {
+                  "Red": 150,
+                  "Green": 73
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "cn_enBt",
+                "X": 15,
+                "Y": 165,
+                "Width": 100,
+                "Height": 60,
+                "Pressed": "keyboard\\fun_bt_pre.png",
+                "Released": "keyboard\\fun_bt_rel.png",
+                "TextId": "TextcnBt",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 208
+                },
+                "PressedColor": {
+                  "Red": 150,
+                  "Green": 73
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "numBt",
+                "X": 15,
+                "Y": 241,
+                "Width": 100,
+                "Height": 60,
+                "Pressed": "keyboard\\fun_bt_pre.png",
+                "Released": "keyboard\\fun_bt_rel.png",
+                "TextId": "__SingleUse_7FVL",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 208
+                },
+                "PressedColor": {
+                  "Red": 150,
+                  "Green": 73
+                },
+                "TextRotation": "0"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "enCont",
+            "X": 170,
+            "Y": 90,
+            "Width": 610,
+            "Height": 310,
+            "Visible": false,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "qBt",
+                "X": 10,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_q_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "wBt",
+                "X": 85,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_w_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "eBt",
+                "X": 160,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_e_x",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 3,
+                  "Blue": 175
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "rBt",
+                "X": 235,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_r_x",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 3,
+                  "Blue": 175
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "tBt",
+                "X": 310,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_t_x",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 3,
+                  "Blue": 175
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "yBt",
+                "X": 385,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_y_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "uBt",
+                "X": 460,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_u_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "iBt",
+                "X": 535,
+                "Y": 5,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_i_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "aBt",
+                "X": 10,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_a_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "sBt",
+                "X": 85,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_s_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "dBt",
+                "X": 160,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_d_x",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 3,
+                  "Blue": 175
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fBt",
+                "X": 235,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_f_x",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 3,
+                  "Blue": 175
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "gBt",
+                "X": 310,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_g_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "hBt",
+                "X": 385,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_h_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "jBt",
+                "X": 460,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_j_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "kBt",
+                "X": 535,
+                "Y": 82,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_k_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "zBt",
+                "X": 10,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_z_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "xBt",
+                "X": 85,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_x_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "cBt",
+                "X": 160,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_c_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "vBt",
+                "X": 235,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_v_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "bBt",
+                "X": 310,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_b_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nBt",
+                "X": 385,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_n_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "mBt",
+                "X": 460,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_m_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "oBt",
+                "X": 535,
+                "Y": 159,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_o_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "dxBt",
+                "X": 10,
+                "Y": 240,
+                "Width": 64,
+                "Height": 64,
+                "Pressed": "keyboard\\eng_dx_bt_pre.png",
+                "Released": "keyboard\\eng_dx_bt_rel.png",
+                "TextId": "Text_dx",
+                "ReleasedColor": {
+                  "Green": 247,
+                  "Blue": 255
+                },
+                "PressedColor": {
+                  "Red": 2,
+                  "Green": 120,
+                  "Blue": 122
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pBt",
+                "X": 85,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_p_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "lBt",
+                "X": 310,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\eng_bt_pre.png",
+                "Released": "keyboard\\eng_bt_rel.png",
+                "TextId": "Text_l_x",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "blBt",
+                "X": 168,
+                "Y": 241,
+                "Width": 130,
+                "Height": 60,
+                "Pressed": "keyboard\\bl_bt_pre.png",
+                "Released": "keyboard\\bl_bt_rel.png",
+                "TextId": "__SingleUse_SPOH",
+                "ReleasedColor": {
+                  "Red": 252,
+                  "Green": 66,
+                  "Blue": 190
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "en_entBt",
+                "X": 500,
+                "Y": 239,
+                "Width": 100,
+                "Height": 60,
+                "Pressed": "keyboard\\ent_bt_pre.png",
+                "Released": "keyboard\\ent_bt_rel.png",
+                "TextId": "__SingleUse_5JT0",
+                "ReleasedColor": {
+                  "Green": 247,
+                  "Blue": 255
+                },
+                "PressedColor": {
+                  "Red": 2,
+                  "Green": 120,
+                  "Blue": 122
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "en_delete",
+                "X": 391,
+                "Y": 239,
+                "Width": 100,
+                "Height": 60,
+                "Pressed": "keyboard\\ent_bt_pre.png",
+                "Released": "keyboard\\ent_bt_rel.png",
+                "TextId": "__SingleUse_PV49",
+                "ReleasedColor": {
+                  "Green": 247,
+                  "Blue": 255
+                },
+                "PressedColor": {
+                  "Red": 2,
+                  "Green": 120,
+                  "Blue": 122
+                },
+                "TextRotation": "0"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cnCont",
+            "X": 170,
+            "Y": 90,
+            "Width": 610,
+            "Height": 310,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "pinyin_image",
+                "X": 10,
+                "Y": 90,
+                "Width": 130,
+                "Height": 210,
+                "RelativeFilename": "keyboard\\pinyin_table.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "cnBtLift",
+                "X": 10,
+                "Y": 10,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\cn_lift_bt_pre.png",
+                "Released": "keyboard\\cn_lift_bt_rel.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "cnBtRight",
+                "X": 530,
+                "Y": 10,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\cn_right_bt_pre.png",
+                "Released": "keyboard\\cn_right_bt_rel.png"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtNone",
+                "X": 150,
+                "Y": 85,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_Y71X",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtABC",
+                "X": 260,
+                "Y": 85,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_LG4O",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtDEF",
+                "X": 370,
+                "Y": 85,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_ZCP8",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtGHI",
+                "X": 150,
+                "Y": 160,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_7L74",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtJKL",
+                "X": 260,
+                "Y": 160,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_OY5R",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtMNO",
+                "X": 370,
+                "Y": 160,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_KC5C",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtPQRS",
+                "X": 150,
+                "Y": 235,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_GVSI",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtTUV",
+                "X": 260,
+                "Y": 235,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_5Z2G",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "pyBtWXYZ",
+                "X": 370,
+                "Y": 235,
+                "Width": 100,
+                "Height": 70,
+                "Pressed": "keyboard\\pinyin_bt_pre.png",
+                "Released": "keyboard\\pinyin_bt_rel.png",
+                "TextId": "__SingleUse_OQPU",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "cnBtBack",
+                "X": 480,
+                "Y": 85,
+                "Width": 120,
+                "Height": 70,
+                "Pressed": "keyboard\\cn_bt_pre.png",
+                "Released": "keyboard\\cn_bt_rel.png",
+                "TextId": "__SingleUse_46EI",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "cnBtEnt",
+                "X": 480,
+                "Y": 235,
+                "Width": 120,
+                "Height": 70,
+                "Pressed": "keyboard\\cn_bt_pre.png",
+                "Released": "keyboard\\cn_bt_rel.png",
+                "TextId": "__SingleUse_8A37",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "cnBtDel",
+                "X": 480,
+                "Y": 160,
+                "Width": 120,
+                "Height": 70,
+                "Pressed": "keyboard\\cn_bt_pre.png",
+                "Released": "keyboard\\cn_bt_rel.png",
+                "TextId": "__SingleUse_RMLV",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "Container",
+                "Name": "pySeclecCont",
+                "X": 10,
+                "Y": 90,
+                "Width": 130,
+                "Height": 210,
+                "Components": [
+                  {
+                    "Type": "Button",
+                    "Name": "pySelectBt1",
+                    "X": 5,
+                    "Width": 120,
+                    "Height": 42,
+                    "Pressed": "keyboard\\pinyin_select_pre.png",
+                    "Released": "keyboard\\pinyin_select.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "pySelectBt2",
+                    "X": 5,
+                    "Y": 42,
+                    "Width": 120,
+                    "Height": 42,
+                    "Pressed": "keyboard\\pinyin_select_pre.png",
+                    "Released": "keyboard\\pinyin_select.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "pySelectBt3",
+                    "X": 5,
+                    "Y": 84,
+                    "Width": 120,
+                    "Height": 42,
+                    "Pressed": "keyboard\\pinyin_select_pre.png",
+                    "Released": "keyboard\\pinyin_select.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "pySelectBt4",
+                    "X": 5,
+                    "Y": 126,
+                    "Width": 120,
+                    "Height": 42,
+                    "Pressed": "keyboard\\pinyin_select_pre.png",
+                    "Released": "keyboard\\pinyin_select.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "pySelectBt5",
+                    "X": 5,
+                    "Y": 168,
+                    "Width": 120,
+                    "Height": 42,
+                    "Pressed": "keyboard\\pinyin_select_pre.png",
+                    "Released": "keyboard\\pinyin_select.png"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "pyText1",
+                    "X": 10,
+                    "Width": 120,
+                    "Height": 42,
+                    "TextId": "__SingleUse_AUV5",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Blue": 128
+                    },
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 6
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "pyText2",
+                    "X": 10,
+                    "Y": 42,
+                    "Width": 120,
+                    "Height": 42,
+                    "TextId": "__SingleUse_E9OO",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Blue": 128
+                    },
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 6
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "pyText3",
+                    "X": 10,
+                    "Y": 84,
+                    "Width": 120,
+                    "Height": 42,
+                    "TextId": "__SingleUse_21KK",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Blue": 128
+                    },
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 6
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "pyText4",
+                    "X": 10,
+                    "Y": 126,
+                    "Width": 120,
+                    "Height": 42,
+                    "TextId": "__SingleUse_61RW",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Blue": 128
+                    },
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 6
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "pyText5",
+                    "X": 10,
+                    "Y": 168,
+                    "Width": 120,
+                    "Height": 42,
+                    "TextId": "__SingleUse_IKUO",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Blue": 128
+                    },
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "cnSelectCont",
+                "X": 90,
+                "Y": 2,
+                "Width": 430,
+                "Height": 80,
+                "Components": [
+                  {
+                    "Type": "Button",
+                    "Name": "cnSelectBt1",
+                    "X": 7,
+                    "Y": 8,
+                    "Width": 70,
+                    "Height": 70,
+                    "Pressed": "keyboard\\cn_select_bt_pre.png",
+                    "Released": "keyboard\\cn_select_bt_rel.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "cnSelectBt2",
+                    "X": 94,
+                    "Y": 8,
+                    "Width": 70,
+                    "Height": 70,
+                    "Pressed": "keyboard\\cn_select_bt_pre.png",
+                    "Released": "keyboard\\cn_select_bt_rel.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "cnSelectBt3",
+                    "X": 181,
+                    "Y": 8,
+                    "Width": 70,
+                    "Height": 70,
+                    "Pressed": "keyboard\\cn_select_bt_pre.png",
+                    "Released": "keyboard\\cn_select_bt_rel.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "cnSelectBt4",
+                    "X": 268,
+                    "Y": 8,
+                    "Width": 70,
+                    "Height": 70,
+                    "Pressed": "keyboard\\cn_select_bt_pre.png",
+                    "Released": "keyboard\\cn_select_bt_rel.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "cnSelectBt5",
+                    "X": 355,
+                    "Y": 8,
+                    "Width": 70,
+                    "Height": 70,
+                    "Pressed": "keyboard\\cn_select_bt_pre.png",
+                    "Released": "keyboard\\cn_select_bt_rel.png"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "cnText1",
+                    "X": 15,
+                    "Y": 16,
+                    "Width": 55,
+                    "Height": 55,
+                    "TextId": "__SingleUse_5B85",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 61,
+                      "Green": 61,
+                      "Blue": 61
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_JQGB",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "cnText2",
+                    "X": 102,
+                    "Y": 16,
+                    "Width": 55,
+                    "Height": 55,
+                    "TextId": "__SingleUse_TYPI",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 61,
+                      "Green": 61,
+                      "Blue": 61
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_7BAP",
+                      "UseBuffer": true,
+                      "BufferSize": 2
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "cnText3",
+                    "X": 189,
+                    "Y": 16,
+                    "Width": 55,
+                    "Height": 55,
+                    "TextId": "__SingleUse_1MC8",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 61,
+                      "Green": 61,
+                      "Blue": 61
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_JQZ7",
+                      "UseBuffer": true,
+                      "BufferSize": 2
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "cnText4",
+                    "X": 276,
+                    "Y": 16,
+                    "Width": 55,
+                    "Height": 55,
+                    "TextId": "__SingleUse_Y7KV",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 61,
+                      "Green": 61,
+                      "Blue": 61
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_8955",
+                      "UseBuffer": true,
+                      "BufferSize": 2
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "cnText5",
+                    "X": 363,
+                    "Y": 16,
+                    "Width": 55,
+                    "Height": 55,
+                    "TextId": "__SingleUse_KRVP",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 61,
+                      "Green": 61,
+                      "Blue": 61
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_IAZV",
+                      "UseBuffer": true,
+                      "BufferSize": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "nbCont",
+            "X": 170,
+            "Y": 90,
+            "Width": 610,
+            "Height": 310,
+            "Visible": false,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb1Bt",
+                "X": 10,
+                "Y": 10,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_5MAR",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb2Bt",
+                "X": 130,
+                "Y": 10,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_N2DL",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb3Bt",
+                "X": 250,
+                "Y": 10,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_54BS",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb4Bt",
+                "X": 370,
+                "Y": 10,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_1B1T",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb5Bt",
+                "X": 490,
+                "Y": 10,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_91NM",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb6Bt",
+                "X": 10,
+                "Y": 83,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_EX1Q",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb7Bt",
+                "X": 130,
+                "Y": 83,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_I1ZR",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb8Bt",
+                "X": 250,
+                "Y": 83,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_O49Z",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb9Bt",
+                "X": 370,
+                "Y": 83,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_TUWO",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "nb0Bt",
+                "X": 490,
+                "Y": 83,
+                "Width": 110,
+                "Height": 65,
+                "Pressed": "keyboard\\numb_bt_pre.png",
+                "Released": "keyboard\\numb_bt_rel.png",
+                "TextId": "__SingleUse_GAOE",
+                "ReleasedColor": {
+                  "Red": 61,
+                  "Green": 255,
+                  "Blue": 242
+                },
+                "PressedColor": {
+                  "Red": 3,
+                  "Green": 135,
+                  "Blue": 124
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt1",
+                "X": 10,
+                "Y": 160,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_2RBH",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt2",
+                "X": 90,
+                "Y": 160,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_5L9G",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt3",
+                "X": 170,
+                "Y": 160,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_PMM9",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt4",
+                "X": 250,
+                "Y": 160,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_NIUW",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt5",
+                "X": 330,
+                "Y": 160,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_VUWB",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt6",
+                "X": 410,
+                "Y": 160,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_QG6R",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt7",
+                "X": 10,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_U2BH",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt8",
+                "X": 90,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_UALR",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt9",
+                "X": 170,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_HEDJ",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt10",
+                "X": 250,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_T5LE",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt11",
+                "X": 330,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_7JC9",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBt12",
+                "X": 410,
+                "Y": 236,
+                "Width": 70,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_bt_pre.png",
+                "Released": "keyboard\\fuhao_bt_rel.png",
+                "TextId": "__SingleUse_0NF6",
+                "ReleasedColor": {
+                  "Red": 247,
+                  "Green": 87,
+                  "Blue": 194
+                },
+                "PressedColor": {
+                  "Red": 168,
+                  "Green": 15,
+                  "Blue": 117
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBtDele",
+                "X": 490,
+                "Y": 160,
+                "Width": 110,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_dele_bt_pre.png",
+                "Released": "keyboard\\fuhao_dele_bt_rel.png",
+                "TextId": "__SingleUse_Y843",
+                "ReleasedColor": {
+                  "Red": 43,
+                  "Green": 43,
+                  "Blue": 43
+                },
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "fhBtDEnt",
+                "X": 490,
+                "Y": 236,
+                "Width": 110,
+                "Height": 70,
+                "Pressed": "keyboard\\fuhao_dele_bt_pre.png",
+                "Released": "keyboard\\fuhao_dele_bt_rel.png",
+                "TextId": "__SingleUse_ZPBV",
+                "ReleasedColor": {
+                  "Red": 43,
+                  "Green": 43,
+                  "Blue": 43
+                },
+                "TextRotation": "0"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "escBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "escBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "escBtClick"
+            }
+          },
+          {
+            "InteractionName": "clrBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "clrBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clrBtClick"
+            }
+          },
+          {
+            "InteractionName": "cn_enBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cn_enBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cn_enBtClick"
+            }
+          },
+          {
+            "InteractionName": "numBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "numBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "numBtClick"
+            }
+          },
+          {
+            "InteractionName": "qBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "qBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "qBtClick"
+            }
+          },
+          {
+            "InteractionName": "wBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "wBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "wBtClick"
+            }
+          },
+          {
+            "InteractionName": "eBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "eBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "eBtClick"
+            }
+          },
+          {
+            "InteractionName": "rBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "rBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rBtClick"
+            }
+          },
+          {
+            "InteractionName": "tBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tBtClick"
+            }
+          },
+          {
+            "InteractionName": "yBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "yBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "yBtClick"
+            }
+          },
+          {
+            "InteractionName": "uBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "uBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "uBtClick"
+            }
+          },
+          {
+            "InteractionName": "iBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "iBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "iBtClick"
+            }
+          },
+          {
+            "InteractionName": "aBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "aBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "aBtClick"
+            }
+          },
+          {
+            "InteractionName": "sBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "sBtClick"
+            }
+          },
+          {
+            "InteractionName": "dBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "dBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "dBtClick"
+            }
+          },
+          {
+            "InteractionName": "fBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fBtClick"
+            }
+          },
+          {
+            "InteractionName": "gBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "gBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "gBtClick"
+            }
+          },
+          {
+            "InteractionName": "hBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "hBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "hBtClick"
+            }
+          },
+          {
+            "InteractionName": "jBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "jBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "jBtClick"
+            }
+          },
+          {
+            "InteractionName": "kBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "kBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "kBtClick"
+            }
+          },
+          {
+            "InteractionName": "zBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "zBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "zBtClick"
+            }
+          },
+          {
+            "InteractionName": "xBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "xBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "xBtClick"
+            }
+          },
+          {
+            "InteractionName": "cBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cBtClick"
+            }
+          },
+          {
+            "InteractionName": "vBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "vBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "vBtClick"
+            }
+          },
+          {
+            "InteractionName": "bBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "bBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "bBtClick"
+            }
+          },
+          {
+            "InteractionName": "nBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nBtClick"
+            }
+          },
+          {
+            "InteractionName": "mBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "mBtClick"
+            }
+          },
+          {
+            "InteractionName": "oBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "oBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oBtClick"
+            }
+          },
+          {
+            "InteractionName": "dxBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "dxBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "dxBtClick"
+            }
+          },
+          {
+            "InteractionName": "pBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pBtClick"
+            }
+          },
+          {
+            "InteractionName": "lBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "lBtClick"
+            }
+          },
+          {
+            "InteractionName": "blBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "blBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "blBtClick"
+            }
+          },
+          {
+            "InteractionName": "en_entBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "en_entBt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "en_entBtClick"
+            }
+          },
+          {
+            "InteractionName": "en_delBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "en_delete"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "en_delBtClick"
+            }
+          },
+          {
+            "InteractionName": "nb1BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb1Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb1BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb2BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb2Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb2BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb3BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb3Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb3BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb4BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb4Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb4BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb5BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb5Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb5BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb6BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb6Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb6BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb7BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb7Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb7BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb8BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb8Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb8BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb9BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb9Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb9BtClick"
+            }
+          },
+          {
+            "InteractionName": "nb0BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nb0Bt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nb0BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh1BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh1BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh2BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh2BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh3BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh3BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh4BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh4BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh5BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh5BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh6BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt6"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh6BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh7BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt7"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh7BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh8BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt8"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh8BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh9BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt9"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh9BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh10BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt10"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh10BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh11BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt11"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh11BtClick"
+            }
+          },
+          {
+            "InteractionName": "fh12BtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBt12"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fh12BtClick"
+            }
+          },
+          {
+            "InteractionName": "fhDelBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBtDele"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fhDelBtClick"
+            }
+          },
+          {
+            "InteractionName": "fhEntBtClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fhBtDEnt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fhEntBtClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtLiftClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnBtLift"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtLiftClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtRightClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnBtRight"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtRightClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtNoneClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtNone"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtNoneClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtABCClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtABC"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtABCClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtDEFClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtDEF"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtDEFClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtGHIClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtGHI"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtGHIClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtJKLClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtJKL"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtJKLClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtMNOClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtMNO"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtMNOClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtPQRSClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtPQRS"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtPQRSClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtTUVClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtTUV"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtTUVClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtWXYZClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pyBtWXYZ"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtWXYZClick"
+            }
+          },
+          {
+            "InteractionName": "pySelectBt1Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pySelectBt1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pySelectBt1Click"
+            }
+          },
+          {
+            "InteractionName": "pySelectBt2Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pySelectBt2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pySelectBt2Click"
+            }
+          },
+          {
+            "InteractionName": "pySelectBt3Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pySelectBt3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pySelectBt3Click"
+            }
+          },
+          {
+            "InteractionName": "pySelectBt4Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pySelectBt4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pySelectBt4Click"
+            }
+          },
+          {
+            "InteractionName": "pySelectBt5Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pySelectBt5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "pySelectBt5Click"
+            }
+          },
+          {
+            "InteractionName": "cnSelectBt1Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnSelectBt1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnSelectBt1Click"
+            }
+          },
+          {
+            "InteractionName": "cnSelectBt2Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnSelectBt2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnSelectBt2Click"
+            }
+          },
+          {
+            "InteractionName": "cnSelectBt3Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnSelectBt3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnSelectBt3Click"
+            }
+          },
+          {
+            "InteractionName": "cnSelectBt4Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnSelectBt4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnSelectBt4Click"
+            }
+          },
+          {
+            "InteractionName": "cnSelectBt5Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnSelectBt5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnSelectBt5Click"
+            }
+          },
+          {
+            "InteractionName": "cnBtBackClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnBtBack"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtBackClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtEntClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnBtEnt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtEntClick"
+            }
+          },
+          {
+            "InteractionName": "cnBtDelClick",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cnBtDel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "cnBtDelClick"
+            }
+          }
+        ]
+      }
+    ],
+    "Name": "STM32F769_Keyboard",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp",
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F769I_DISCO.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.18.0"
+}
